@@ -1,444 +1,444 @@
-/* common style */
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-}
-/* css 3 variable */
-:root{
-  --themeRed:#e43a47;
-  --gray:#efefef;
-}
-html{
-  scroll-behavior: smooth;
-}
-/* css 3 variable end */
-button,
-body{
- font-family: 'Mukta Mahee', sans-serif;
-}
-p{
-  font-size: 14px;
-  line-height: 26px;
-}
-.fullContainer-banner{
-  width: 100%;
-}
-.container{
-width:1140px;
-margin: auto;
- 
-}
-/* about with designer underline start */
-.sectionTitle{
-  width: 300px;
-  border-bottom: 3px solid #e43a47;
-  text-align: center;
-  font-size: 2rem;
-  margin: 0 auto 50px;
-  position: relative;
-  padding: 10px 0;
-  text-transform: uppercase;
-}
-.sectionTitle::after{
-  display:inline-block;
-  content:"";
-  height: 15px;
-  width: 15px;
-  background-color: #e43a47;
-  position: absolute;
-  left: calc(50% - 10px);
-  top: calc(75% - 7px);
-  transform: rotate(45deg) translate(50%, 50%);
-  border: 3px solid #fff;
-}
- section{
-  padding: 100px 0;
-  position: relative;
+          /* common style */
+          *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          }
+          /* css 3 variable */
+          :root{
+            --themeRed:#e43a47;
+            --gray:#efefef;
+          }
+          html{
+            scroll-behavior: smooth;
+          }
+          /* css 3 variable end */
+          button,
+          body{
+          font-family: 'Mukta Mahee', sans-serif;
+          }
+          p{
+            font-size: 14px;
+            line-height: 26px;
+          }
+          .fullContainer-banner{
+            width: 100%;
+          }
+          .container{
+          width:1140px;
+          margin: auto;
+          
+          }
+          /* about with designer underline start */
+          .sectionTitle{
+            width: 300px;
+            border-bottom: 3px solid #e43a47;
+            text-align: center;
+            font-size: 2rem;
+            margin: 0 auto 50px;
+            position: relative;
+            padding: 10px 0;
+            text-transform: uppercase;
+          }
+          .sectionTitle::after{
+            display:inline-block;
+            content:"";
+            height: 15px;
+            width: 15px;
+            background-color: #e43a47;
+            position: absolute;
+            left: calc(50% - 10px);
+            top: calc(75% - 7px);
+            transform: rotate(45deg) translate(50%, 50%);
+            border: 3px solid #fff;
+          }
+          section{
+            padding: 100px 0;
+            position: relative;
 
- }
-/* about with designer undrline ends */
+          }
+          /* about with designer undrline ends */
 
-/* common styl end */
+          /* common styl end */
 
-/* home style */
-header{
-  width: 100%;
-  background-color: rgba(0, 0, 0,0.6);
-  position: fixed;
-  z-index: 2;
-}
-header .container{
-  display: flex;
-  justify-content: space-between;
-}
-header .container .logo{
-  padding: 15px 0;
-  height: 55px;
-}
-header .container .logo img{
-  height:200% ;
-}
-header nav ul{
-  list-style-type: none;
-}
-header nav ul li{
-  display: inline-block;
-}
-header nav ul a{
-  display: inline-block;
-  height: 75px;
-  line-height: 75px;
-  padding: 0 15px;
-  text-decoration: none;
-  text-transform:capitalize;
-  font-size: 16px;
-  color: #fff;
-  transition: 0.5s;
+          /* home style */
+          header{
+            width: 100%;
+            background-color: rgba(0, 0, 0,0.6);
+            position: fixed;
+            z-index: 2;
+          }
+          header .container{
+            display: flex;
+            justify-content: space-between;
+          }
+          header .container .logo{
+            padding: 15px 0;
+            height: 55px;
+          }
+          header .container .logo img{
+            height:200% ;
+          }
+          header nav ul{
+            list-style-type: none;
+          }
+          header nav ul li{
+            display: inline-block;
+          }
+          header nav ul a{
+            display: inline-block;
+            height: 75px;
+            line-height: 75px;
+            padding: 0 15px;
+            text-decoration: none;
+            text-transform:capitalize;
+            font-size: 16px;
+            color: #fff;
+            transition: 0.5s;
 
-}
-header nav ul a.donate{
-  background-color:#e43a47;
-  border: 0 solid black;
-  display:inline; 
-  padding: 7px 15px; 
-  margin-top: 5px; 
-  border-radius: 20px; 
-  outline: none;
-}
-
-
-
-/* button{
-  background-color: red;
-  border-radius: 10px;
-  padding: 10px;
-  color:wheat;
-} */
-/* css 3 variable */
-header nav ul a:hover{
-  background-color:#e43a47;
-  /* css 3 variable end */
-  
-}
-.banner{
-  min-height: 100vh;
-  width: 100%;
-  background-image: url("./img folder/background-img6.jpg");
-  background-size:cover;
-  /* background-attachment: fixed;  */
-  background-repeat: no-repeat;
-  
-
-}
-.banner h1{
-  margin-top: 230px;
-  display: inline-block;
-  font-size: 2.7rem;
-  color: #fff;
-  /* color:rgba(0, 0, 0,0.6); */
-  text-shadow: 0 0 0.5px #000;
-  width: 50%;
-  line-height: 3.2rem;
-  font-weight: 700;
-}
-.banner h1 span{
-  background-color:#e43a47; 
-  display: inline-block;
-  line-height: 3.5rem;
-  font-weight:700;
-  padding:0 15px; 
-  border-radius: 10px;
-  margin-top:0 15px;
-}
-.banner p{
-  color: #fff;
-  /* color:rgba(0, 0, 0,0.6); */
-  width: 50%;
-  text-shadow: 0 0 0.5PX #000;
-  margin-top: 10px;
-
-}
-.banner button{
-background-color: #e43a47;
-border: 0;
-outline: none;
-color: #fff;
-/* color: rgba(0, 0, 0,0.6); */
-padding: 10px 15px;
-margin-top: 20px;
-border-radius: 10px;
-font-size: 14px;
-font-weight: 700;
-}
-/* if you want the backgound to be benezer love foundation the work on this below*/
+          }
+          header nav ul a.donate{
+            background-color:#e43a47;
+            border: 0 solid black;
+            display:inline; 
+            padding: 7px 15px; 
+            margin-top: 5px; 
+            border-radius: 20px; 
+            outline: none;
+          }
 
 
-/* home style end */
-/* about style bigging*/
-/* #aboutSection .container{
-  background-image: url("./img folder/background-img.jpg");
-  background-position:fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 80vh;
-  margin-top: 0 auto;
-  align-items: center;
 
-} */
+          /* button{
+            background-color: red;
+            border-radius: 10px;
+            padding: 10px;
+            color:wheat;
+          } */
+          /* css 3 variable */
+          header nav ul a:hover{
+            background-color:#e43a47;
+            /* css 3 variable end */
+            
+          }
+          .banner{
+            min-height: 100vh;
+            width: 100%;
+            background-image: url("./img folder/background-img6.jpg");
+            background-size:cover;
+            /* background-attachment: fixed;  */
+            background-repeat: no-repeat;
+            
 
+          }
+          .banner h1{
+            margin-top: 230px;
+            display: inline-block;
+            font-size: 2.7rem;
+            color: #fff;
+            /* color:rgba(0, 0, 0,0.6); */
+            text-shadow: 0 0 0.5px #000;
+            width: 50%;
+            line-height: 3.2rem;
+            font-weight: 700;
+          }
+          .banner h1 span{
+            background-color:#e43a47; 
+            display: inline-block;
+            line-height: 3.5rem;
+            font-weight:700;
+            padding:0 15px; 
+            border-radius: 10px;
+            margin-top:0 15px;
+          }
+          .banner p{
+            color: #fff;
+            /* color:rgba(0, 0, 0,0.6); */
+            width: 50%;
+            text-shadow: 0 0 0.5PX #000;
+            margin-top: 10px;
 
-/* #aboutSection .container img{
-width: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-min-height: 100vh;
-background-position: fixed;
-} */
-
- #aboutSection .cards{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   margin-top: 50px;
-   position: relative;
-   height: 345px;
-
- }
- #aboutSection .cards > div{
-  width: 350px;
-  background-color:var(--gray);
-  padding: 35px;
-  color: #444;
-  text-align: center;
-  border-radius: 10px;
-  height: 310px;
-  border:1px solid #ccc;
-  transition: 0.5s;
- }
- #aboutSection .cards > div:hover{
-  width: 400px;
-  margin-top:-10px;
-  border-color: #e43a47;
-  padding: 55px;
-  height: auto;
- }
- #aboutSection .cards > div .title {
-  font:20px;
-  font-size: 18px;
-  font-weight: 600px;
-  text-transform: uppercase;
- }
- #aboutSection .cards > div p{
-  font:20px;
-  font-size: 15px;
-  font-weight: 600px;
-  margin-top: 15px;
- }
- #aboutSection .cards > div button{
-  border: 1px solid #e43a47;
-  outline: none;
-  padding: 7px 15px;
-  margin-top:15px;
-  font-size: 12px;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: 0.7s;
-}
-#aboutSection .cards > div:hover button{
-  background-color: #e43a47;
-  color: #fff;
-}
-
-/* about style end */
-
-/* program style biggins */
- .programs{
-  background-color: #e2e2e2;
+          }
+          .banner button{
+          background-color: #e43a47;
+          border: 0;
+          outline: none;
+          color: #fff;
+          /* color: rgba(0, 0, 0,0.6); */
+          padding: 10px 15px;
+          margin-top: 20px;
+          border-radius: 10px;
+          font-size: 14px;
+          font-weight: 700;
+          }
+          /* if you want the backgound to be benezer love foundation the work on this below*/
 
 
- }
- .programs .boxContainer{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+          /* home style end */
+          /* about style bigging*/
+          /* #aboutSection .container{
+            background-image: url("./img folder/background-img.jpg");
+            background-position:fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 80vh;
+            margin-top: 0 auto;
+            align-items: center;
+
+          } */
 
 
-}
- 
-  
- .programs .boxContainer .box{
-  background-color: #fff;
-  text-align: center;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow:0 0 3px #c5c5c5;
-  position: relative;
-  margin-bottom: 15px;
-  width: 90%;
-  padding: 0 0 10% 0;
+          /* #aboutSection .container img{
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          min-height: 100vh;
+          background-position: fixed;
+          } */
 
- }
+          #aboutSection .cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 50px;
+            position: relative;
+            height: 345px;
 
- .programs .boxContainer .box .cardImage{
-  width:100%;
-  height: 300px;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10xp 10px 0 0;
- }
- .programs .boxContainer .box .cardImage:after{
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  filter: grayscale(100%);
-  transition: 0.4s;
-  background-repeat: no-repeat;
- }
- .programs .boxContainer .box:nth-child(1) .cardImage,
- .programs .boxContainer .box:nth-child(1) .cardImage:after{
-  background-image: url("./img\ folder/program-img1.jpg");
- }
- .programs .boxContainer .box:nth-child(2) .cardImage,
- .programs .boxContainer .box:nth-child(2) .cardImage:after{
-  background-image: url("./img folder/program-img2.jpg");
- }
- .programs .boxContainer .box:nth-child(3) .cardImage,
- .programs .boxContainer .box:nth-child(3) .cardImage:after{
-  background-image: url("./img folder/program-img3.jpg");
- }
- .programs .boxContainer .box:nth-child(4) .cardImage,
- .programs .boxContainer .box:nth-child(4) .cardImage:after{
-  background-image: url("./img folder/program-img4.jpg");
- }
+          }
+          #aboutSection .cards > div{
+            width: 350px;
+            background-color:var(--gray);
+            padding: 35px;
+            color: #444;
+            text-align: center;
+            border-radius: 10px;
+            height: 310px;
+            border:1px solid #ccc;
+            transition: 0.5s;
+          }
+          #aboutSection .cards > div:hover{
+            width: 400px;
+            margin-top:-10px;
+            border-color: #e43a47;
+            padding: 55px;
+            height: auto;
+          }
+          #aboutSection .cards > div .title {
+            font:20px;
+            font-size: 18px;
+            font-weight: 600px;
+            text-transform: uppercase;
+          }
+          #aboutSection .cards > div p{
+            font:20px;
+            font-size: 15px;
+            font-weight: 600px;
+            margin-top: 15px;
+          }
+          #aboutSection .cards > div button{
+            border: 1px solid #e43a47;
+            outline: none;
+            padding: 7px 15px;
+            margin-top:15px;
+            font-size: 12px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: 0.7s;
+          }
+          #aboutSection .cards > div:hover button{
+            background-color: #e43a47;
+            color: #fff;
+          }
 
- .programs .boxContainer .box:hover .cardImage:after{
-  top: 100%;
-  
- }
-.programs .boxContainer .box .programtitle{
-  font-size: 15px;
-  margin-top: 15px;
-  font-weight: 15px;
-  color: #444;
-}
-.programs .boxContainer .box .donationCount{
-  font-size: 15px;
-  font-weight: 600;
-  color: #444;
-  margin-top: 5px;
+          /* about style end */
 
-}
-.programs .boxContainer .box .donationCount span{
-  color: #e43a47;
-}
-.programs .boxContainer .box button{
-  position: absolute;
-  left: 50%;
-  background-color: #e43a47;
-  color: #fff;
-  transform: translate(-50%);
-  border: -30px;
-  border-radius: 60px;
-  padding: 5px 15px;
-  border: 0;
-  outline: none;
-  cursor: pointer;
-}
-/* program style end */
-
-/* education style biggins */
-.education{
-  height: 100vh;
-  overflow: hidden;
-  position: relative ;
-}
- .education .videoPlayer{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  transform: translate(-50%, -50% );
- }
- .education .sectionTitle{
-  color: #fff;
-  text-shadow: 0 0 4px #000;
- }
- .education .educationContainer{
-  position: absolute;
-  background-color:#00000096;
-  width: 600px;
-  top: 35vh;
-  color:#fff;
-  text-shadow: 0 0 3px #000;
-  padding: 30px;
-  
- }
-
- .education.educationContainer h3{
-  font-size: 35px;
-  font-weight: 300;
- }
- .educationContainer p{
-  font-size: 15px;
-  line-height: 20px;
-  margin:15px 0 30px;
-  
- }
- .education .educationContainer button{
-  background-color: #e43a47;
-  border: 0;
-  color: #fff;
-  padding: 10px 25px;
-  font-weight: bold;
-  font-size: 14px;
-  outline: none;
- }
+          /* program style biggins */
+          .programs{
+            background-color: #e2e2e2;
 
 
-/* education style ends */
-.gallery .galleryContainer{
-  column-count: 3;
-  column-gap: 20px;
-  min-height: 100vh;
-}
-.gallery .galleryContainer .item{
-  position: relative;
-  margin-bottom: 20px;
-  overflow: hidden;
+          }
+          .programs .boxContainer{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
 
-}
-.gallery .galleryContainer img{
-  width: 100%;
-  display: block;
-  transition: 0.4s;
-}
-.gallery .galleryContainer .title{
-  position: absolute;
-  background-color: #e43a47;
-  padding: 5px;
-  margin: 5px;
-  border-radius:13px;
-  font-weight: bold;
-  opacity: 0;
-  z-index: 1;
-  transition: 0.4s;
-}
-.gallery .galleryContainer .item:hover .title{
-opacity: 1;
-}
-.gallery .galleryContainer .item:hover{
-  transform:scale(1.2);
-}
-/* gallery style end */
 
-/* join us section start */
+          }
+          
+            
+          .programs .boxContainer .box{
+            background-color: #fff;
+            text-align: center;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow:0 0 3px #c5c5c5;
+            position: relative;
+            margin-bottom: 15px;
+            width: 90%;
+            padding: 0 0 10% 0;
+
+          }
+
+          .programs .boxContainer .box .cardImage{
+            width:100%;
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10xp 10px 0 0;
+          }
+          .programs .boxContainer .box .cardImage:after{
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            filter: grayscale(100%);
+            transition: 0.4s;
+            background-repeat: no-repeat;
+          }
+          .programs .boxContainer .box:nth-child(1) .cardImage,
+          .programs .boxContainer .box:nth-child(1) .cardImage:after{
+            background-image: url("./img\ folder/program-img1.jpg");
+          }
+          .programs .boxContainer .box:nth-child(2) .cardImage,
+          .programs .boxContainer .box:nth-child(2) .cardImage:after{
+            background-image: url("./img folder/program-img2.jpg");
+          }
+          .programs .boxContainer .box:nth-child(3) .cardImage,
+          .programs .boxContainer .box:nth-child(3) .cardImage:after{
+            background-image: url("./img folder/program-img3.jpg");
+          }
+          .programs .boxContainer .box:nth-child(4) .cardImage,
+          .programs .boxContainer .box:nth-child(4) .cardImage:after{
+            background-image: url("./img folder/program-img4.jpg");
+          }
+
+          .programs .boxContainer .box:hover .cardImage:after{
+            top: 100%;
+            
+          }
+          .programs .boxContainer .box .programtitle{
+            font-size: 15px;
+            margin-top: 15px;
+            font-weight: 15px;
+            color: #444;
+          }
+          .programs .boxContainer .box .donationCount{
+            font-size: 15px;
+            font-weight: 600;
+            color: #444;
+            margin-top: 5px;
+
+          }
+          .programs .boxContainer .box .donationCount span{
+            color: #e43a47;
+          }
+          .programs .boxContainer .box button{
+            position: absolute;
+            left: 50%;
+            background-color: #e43a47;
+            color: #fff;
+            transform: translate(-50%);
+            border: -30px;
+            border-radius: 60px;
+            padding: 5px 15px;
+            border: 0;
+            outline: none;
+            cursor: pointer;
+          }
+          /* program style end */
+
+          /* education style biggins */
+          .education{
+            height: 100vh;
+            overflow: hidden;
+            position: relative ;
+          }
+          .education .videoPlayer{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            transform: translate(-50%, -50% );
+          }
+          .education .sectionTitle{
+            color: #fff;
+            text-shadow: 0 0 4px #000;
+          }
+          .education .educationContainer{
+            position: absolute;
+            background-color:#00000096;
+            width: 600px;
+            top: 35vh;
+            color:#fff;
+            text-shadow: 0 0 3px #000;
+            padding: 30px;
+            
+          }
+
+          .education.educationContainer h3{
+            font-size: 35px;
+            font-weight: 300;
+          }
+          .educationContainer p{
+            font-size: 15px;
+            line-height: 20px;
+            margin:15px 0 30px;
+            
+          }
+          .education .educationContainer button{
+            background-color: #e43a47;
+            border: 0;
+            color: #fff;
+            padding: 10px 25px;
+            font-weight: bold;
+            font-size: 14px;
+            outline: none;
+          }
+
+
+          /* education style ends */
+          .gallery .galleryContainer{
+            column-count: 3;
+            column-gap: 20px;
+            min-height: 100vh;
+          }
+          .gallery .galleryContainer .item{
+            position: relative;
+            margin-bottom: 20px;
+            overflow: hidden;
+
+          }
+          .gallery .galleryContainer img{
+            width: 100%;
+            display: block;
+            transition: 0.4s;
+          }
+          .gallery .galleryContainer .title{
+            position: absolute;
+            background-color: #e43a47;
+            padding: 5px;
+            margin: 5px;
+            border-radius:13px;
+            font-weight: bold;
+            opacity: 0;
+            z-index: 1;
+            transition: 0.4s;
+          }
+          .gallery .galleryContainer .item:hover .title{
+          opacity: 1;
+          }
+          .gallery .galleryContainer .item:hover{
+            transform:scale(1.2);
+          }
+          /* gallery style end */
+
+          /* join us section start */
 
 body {
            
@@ -593,285 +593,277 @@ body {
 
 /* donate section end */
 
+          /* join us style2 start */
+          .join{
+            background-color: #e43a47;
+            color:#fff;
+          }
+          .join .joinTitle{
+            font-size: 40px;
+            font-weight: 100;
+          }
+          .join .joinTitle span{
+            font-weight: 800;
+          }
+          .join button{
+            padding: 7px 15px;
+            margin-top: 20px;
+            border: 0;
+            outline: none;
+            font-weight: 600;
+            font-size: 16px;
+          }
+          .join button.joinNow{
+            margin-right:10px;
+            background-color:#424242;
+            color: #fff;
+          }
+          .join button.adoptbtn{
+            background-color:#424242;
+          }
+          .joinLink {
+            display: none; /* Hide the checkbox input */
+          }
+
+          .joinUS {
+            cursor: pointer; /* Change cursor to pointer on hover */
+          }
+
+          .joinUS::after {
+            content: "►"; /* Add a clickable arrow symbol */
+            margin-left: 5px; /* Add some spacing after the button text */
+          }
+
+          .joinUS:hover + .joinLink:checked ~ .realLink {
+            display: inline-block; /* Show the real link when checkbox is checked */
+          }
 
 
+          /* Style the default button */
+          /* .joinNow, .adoptbtn {
+              padding: 10px 20px;
+              background-color:#424242;
+              color: #fff;
+              text-decoration: none;
+              border: none;
+              border-radius: 5px;
+              transition: background-color 0.3s;
+          } */
+
+          /* Change button style on hover */
+          .joinNow:hover, .adoptbtn:hover {
+              background-color: #0056b3;
+              cursor: pointer; /* Add a hand cursor to indicate it's clickable */
+          }
 
 
+          /* join us style end */
 
 
+          /* footer style start */
+          footer {
+          background-color: #181818;
+          color: #7f7f7f;
+          padding: 50px 0;
+          font-size: 14px;
+          }
+          footer .container{
+            display: grid;
+            grid-template-columns:  1fr 1fr 1fr;
+            grid-gap: 50px;
+          }
+          footer .title{
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            border-bottom: 2px solid;
+            margin-bottom: 30px;
+            padding: 0 0 5px 0;
+          }
+          footer p{
+          margin-bottom: 10px; 
+          }
+          footer .linksContainer ul{
+            list-style-type: none;
+          }
+          footer .linksContainer ul li a{
+            text-decoration: none;
+            color:#7f7f7f7f;
+            margin-bottom: 10px;
+            display: inline-block;
+          }
+          footer .newLetterContainer input{
+            background-color:transparent ;
+          border:1px solid #7f7f7f;
+          outline: none;
+          padding: 10px 15px;
+          width: 100%;
+          margin-top: 10px;
+          color: #ccc;
+          border-radius: 30px;
+          }
+          /* footer end */
 
+          /* responsiveness code start from here */
+          @media screen and (max-width: 1140px){
+            .container{
+              width:100%;
+              padding:0 15px;
+            }
+            .education .videoPlayer{
+              width: 1280px;
+            }
+          }
+          @media screen and (max-width: 1080px){
+            .banner h1{
+              margin-top: 200px;
+            }
+            #aboutSection .cards{
+              justify-content: space-around;
+              height: auto;
+            }
+            #aboutSection .cards > div{
+              margin: 10px 0;
 
-/* join us style2 start */
-.join{
-  background-color: #e43a47;
-  color:#fff;
-}
-.join .joinTitle{
-  font-size: 40px;
-  font-weight: 100;
-}
-.join .joinTitle span{
-  font-weight: 800;
-}
-.join button{
-  padding: 7px 15px;
-  margin-top: 20px;
-  border: 0;
-  outline: none;
-  font-weight: 600;
-  font-size: 16px;
-}
-.join button.joinNow{
-  margin-right:10px;
-  background-color:#424242;
-  color: #fff;
-}
-.join button.adoptbtn{
-  background-color:#424242;
-}
-.joinLink {
-  display: none; /* Hide the checkbox input */
-}
+            }
+          }
+          @media screen and (max-width: 1024px){
+            .banner{
+              background-position-x:45%;
+            }
+            .banner h1{
+              font-size: 2.5rem;
+            }
+            .programs .boxContainer{
+              grid-template-columns: repeat(2, 1fr);
+            }
+          }
+          @media screen and (max-width: 768px){
+            header nav{
+              position: relative;
+              border: 2px solid #fff;
+              height:30px;
+              width: 30px;
+              margin-top: 20px;
+              border-radius: 5px;
+            }
+          header nav:after{
+            top: 19px;
+          }
+          header nav:before{
+            top: 7px;
 
-.joinUS {
-  cursor: pointer; /* Change cursor to pointer on hover */
-}
+          }
+          header nav:after,
+          header nav:before{
+            content: "";
+            height: 2px;
+            width:17px;
+            background-color: #fff;
+            display: block;
+            position: absolute;
+            left: 5px;
 
-.joinUS::after {
-  content: "►"; /* Add a clickable arrow symbol */
-  margin-left: 5px; /* Add some spacing after the button text */
-}
+          }
+          header nav ul{
+            position: absolute;
+            right: -400px;
+            top: 30px;
+            transition: 0.5s;
+          }
+          header nav:hover ul{
+            right: 0;
+          }
+          header nav ul li{
+            display: block;
+          }
+          
+          header nav:hover ul li a{
+            width: 300px;
+            background-color:rgba(0, 0, 0, 0.6);
+          }
 
-.joinUS:hover + .joinLink:checked ~ .realLink {
-  display: inline-block; /* Show the real link when checkbox is checked */
-}
-
-
-/* Style the default button */
-/* .joinNow, .adoptbtn {
-    padding: 10px 20px;
-    background-color:#424242;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-} */
-
-/* Change button style on hover */
-.joinNow:hover, .adoptbtn:hover {
-    background-color: #0056b3;
-    cursor: pointer; /* Add a hand cursor to indicate it's clickable */
-}
-
-
-/* join us style end */
-
-
-/* footer style start */
- footer {
-background-color: #181818;
-color: #7f7f7f;
-padding: 50px 0;
-font-size: 14px;
-}
-footer .container{
-  display: grid;
-  grid-template-columns:  1fr 1fr 1fr;
-  grid-gap: 50px;
-}
-footer .title{
-  font-size: 20px;
-  font-weight: 600;
-  text-transform: uppercase;
-  border-bottom: 2px solid;
-  margin-bottom: 30px;
-  padding: 0 0 5px 0;
-}
-footer p{
- margin-bottom: 10px; 
-}
- footer .linksContainer ul{
-  list-style-type: none;
- }
- footer .linksContainer ul li a{
-  text-decoration: none;
-  color:#7f7f7f7f;
-  margin-bottom: 10px;
-  display: inline-block;
- }
- footer .newLetterContainer input{
-  background-color:transparent ;
-border:1px solid #7f7f7f;
-outline: none;
-padding: 10px 15px;
-width: 100%;
-margin-top: 10px;
-color: #ccc;
-border-radius: 30px;
- }
- /* footer end */
-
- /* responsiveness code start from here */
-@media screen and (max-width: 1140px){
-  .container{
-    width:100%;
-    padding:0 15px;
-  }
-  .education .videoPlayer{
-    width: 1280px;
-  }
-}
-@media screen and (max-width: 1080px){
-  .banner h1{
-    margin-top: 200px;
-  }
-  #aboutSection .cards{
-    justify-content: space-around;
-    height: auto;
-  }
-  #aboutSection .cards > div{
-    margin: 10px 0;
-
-  }
-}
-@media screen and (max-width: 1024px){
-  .banner{
-    background-position-x:45%;
-  }
-   .banner h1{
-    font-size: 2.5rem;
-   }
-   .programs .boxContainer{
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 768px){
-  header nav{
-    position: relative;
-    border: 2px solid #fff;
-    height:30px;
-    width: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-  }
-header nav:after{
-  top: 19px;
-}
-header nav:before{
-  top: 7px;
-
-}
-header nav:after,
-header nav:before{
-  content: "";
-  height: 2px;
-  width:17px;
-  background-color: #fff;
-  display: block;
-  position: absolute;
-  left: 5px;
-
-}
- header nav ul{
-  position: absolute;
-  right: -400px;
-  top: 30px;
-  transition: 0.5s;
- }
- header nav:hover ul{
-  right: 0;
- }
- header nav ul li{
-  display: block;
- }
- 
- header nav:hover ul li a{
-  width: 300px;
-  background-color:rgba(0, 0, 0, 0.6);
- }
-
- header nav:hover ul li a.donate{
-  background-color:#e43a47;
- }
- .banner{
-  background-position-x:65%;
- }
- .banner p{
-  font-size:14px;
- }
- .banner p,
- .banner h1{
-  width:70%;
- }
- #aboutSection .cards > div:hover{
-  width:120px;
- }
- .education.educationContainer{
-  width:90%;
- }
- .education .educationContainer h3{ 
-  font-size: 30px;
-  line-height: 35px;
- }
- .education .educationContainer p{
-  margin: 1px 0 20px  ;
- }
- .gallery .galleryContainer{
-  column-count:2;
- }
-}
-@media screen and (max-width: 425px) {
- .banner h1{
-  margin-top: 140px;
-  font-size: 2rem;
-  line-height:3rem ;
- } 
-  .banner button{
-  margin-bottom: 10px;
- } 
-  #aboutSection p{
-  text-align: justify;
- } 
- #aboutSection .cards >div:hover{
-  width: 400px;
-  margin-top: 10px;
-  padding: 35px;
- } 
- .programs .boxContainer{
-  grid-template-columns: 1fr;
- }
- .education .videoPlayer{
-  width: 1400px;
- }
- .education .educationContainer{
-width: 93%;
- }
- .gallery .galleryContainer{
-  column-count: 1;
- }
-  footer .container{
-  grid-template-columns: 1fr;
- }
-}
-@media screen and (max-width: 320px) {
-  .education .educationContainer h3{
-    font-size: 18px;
-    line-height: 24px;
-  }
-  .banner h1{
-    margin-top: 100px;
-  }
-  
-}
-.tell{
-  color: #e43a47;
-}
-.icon1, .icon2, .icon3{
-    color: #e43a47;
-  }
-.icon1, .icon2 {
-  margin-right: 15px;
-  
-}
- /* responsiveness code ends here */
+          header nav:hover ul li a.donate{
+            background-color:#e43a47;
+          }
+          .banner{
+            background-position-x:65%;
+          }
+          .banner p{
+            font-size:14px;
+          }
+          .banner p,
+          .banner h1{
+            width:70%;
+          }
+          #aboutSection .cards > div:hover{
+            width:120px;
+          }
+          .education.educationContainer{
+            width:90%;
+          }
+          .education .educationContainer h3{ 
+            font-size: 30px;
+            line-height: 35px;
+          }
+          .education .educationContainer p{
+            margin: 1px 0 20px  ;
+          }
+          .gallery .galleryContainer{
+            column-count:2;
+          }
+          }
+          @media screen and (max-width: 425px) {
+          .banner h1{
+            margin-top: 140px;
+            font-size: 2rem;
+            line-height:3rem ;
+          } 
+            .banner button{
+            margin-bottom: 10px;
+          } 
+            #aboutSection p{
+            text-align: justify;
+          } 
+          #aboutSection .cards >div:hover{
+            width: 400px;
+            margin-top: 10px;
+            padding: 35px;
+          } 
+          .programs .boxContainer{
+            grid-template-columns: 1fr;
+          }
+          .education .videoPlayer{
+            width: 1400px;
+          }
+          .education .educationContainer{
+          width: 93%;
+          }
+          .gallery .galleryContainer{
+            column-count: 1;
+          }
+            footer .container{
+            grid-template-columns: 1fr;
+          }
+          }
+          @media screen and (max-width: 320px) {
+            .education .educationContainer h3{
+              font-size: 18px;
+              line-height: 24px;
+            }
+            .banner h1{
+              margin-top: 100px;
+            }
+            
+          }
+          .tell{
+            color: #e43a47;
+          }
+          .icon1, .icon2, .icon3{
+              color: #e43a47;
+            }
+          .icon1, .icon2 {
+            margin-right: 15px;
+            
+          }
+          /* responsiveness code ends here */
