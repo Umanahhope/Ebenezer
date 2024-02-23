@@ -477,6 +477,7 @@ body {
         input[type="text"],
         input[type="tel"],
         input[type="email"],
+        input[type="description"],
         textarea {
             width: 50%;
             padding: 10px;
@@ -484,6 +485,14 @@ body {
             border: none;
             border-radius: 5px;
         }
+        
+        input[type="description"],
+        textarea{
+
+          width: 100%;
+          border-radius: 10px;
+        }
+        
 
         input[type="submit"] {
             background-color: #424242; /* Button color */
