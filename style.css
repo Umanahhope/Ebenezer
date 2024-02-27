@@ -549,7 +549,7 @@ body {
     }
 
     .form-container {
-        width: 100%; /* Make the form container wider on smaller screens */
+        width: 100%; 
         
     }
 }
