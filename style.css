@@ -704,7 +704,7 @@ body {
           }
           footer .linksContainer ul li a{
             text-decoration: none;
-            /* color:#7f7f7f7f; */
+            
             color: #efefef;
             margin-bottom: 10px;
             display: inline-block;
@@ -717,7 +717,6 @@ body {
           width: 100%;
           margin-top: 10px;
           color: #efefef;
-          /* color: #ccc; */
           border-radius: 30px;
           }
           /* footer end */
