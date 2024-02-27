@@ -57,9 +57,9 @@
             position: relative;
 
           }
-          /* about with designer undrline ends */
+          /* about with designer underline ends */
 
-          /* common styl end */
+          /* common style end */
 
           /* home style */
           header{
@@ -67,6 +67,8 @@
             background-color: rgba(0, 0, 0,0.6);
             position: fixed;
             z-index: 2;
+            height: 100px;
+            
           }
           header .container{
             display: flex;
@@ -171,7 +173,7 @@
           font-size: 14px;
           font-weight: 700;
           }
-          /* if you want the backgound to be benezer love foundation the work on this below*/
+          /* if you want the background to be Ebenezer love foundation the work on this below*/
 
 
           /* home style end */
@@ -337,6 +339,8 @@
           }
           .programs .boxContainer .box .donationCount span{
             color: #e43a47;
+            height: 70px;
+
           }
           .programs .boxContainer .box button{
             position: absolute;
@@ -518,7 +522,9 @@ body {
         text-align: center;
         align-items: center;
         min-height: 60vh;
-        display: flex;
+        display: block;
+        /* display: flex; */
+        margin-bottom: 10px;
         flex-direction: column;
        }
        #donate .sectionTitle{
@@ -672,7 +678,8 @@ body {
           /* footer style start */
           footer {
           background-color: #181818;
-          color: #7f7f7f;
+          /* color: #7f7f7f; */
+          color: #efefef;
           padding: 50px 0;
           font-size: 14px;
           }
@@ -697,7 +704,8 @@ body {
           }
           footer .linksContainer ul li a{
             text-decoration: none;
-            color:#7f7f7f7f;
+            /* color:#7f7f7f7f; */
+            color: #efefef;
             margin-bottom: 10px;
             display: inline-block;
           }
@@ -708,7 +716,8 @@ body {
           padding: 10px 15px;
           width: 100%;
           margin-top: 10px;
-          color: #ccc;
+          color: #efefef;
+          /* color: #ccc; */
           border-radius: 30px;
           }
           /* footer end */
