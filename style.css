@@ -15,7 +15,7 @@
           /* css 3 variable end */
           button,
           body{
-          font-family: 'Mukta Mahee', sans-serif;
+          font-family: 'Mukta', sans-serif;
           }
           p{
             font-size: 14px;
@@ -173,7 +173,7 @@
           font-size: 14px;
           font-weight: 700;
           }
-          /* if you want the background to be Ebenezer love foundation the work on this below*/
+          /* if you want the background to be Ebeneezer love foundation the work on this below*/
 
 
           /* home style end */
@@ -444,9 +444,7 @@
 
           /* join us section start */
 
-body {
-           
-        }
+
 
         /* Style the form container */
         .form-container {
