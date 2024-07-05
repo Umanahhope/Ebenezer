@@ -15,7 +15,7 @@
           /* css 3 variable end */
           button,
           body{
-          font-family: 'Mukta', sans-serif;
+          font-family: 'Mukta Mahee', sans-serif;
           }
           p{
             font-size: 14px;
@@ -173,7 +173,7 @@
           font-size: 14px;
           font-weight: 700;
           }
-          /* if you want the background to be Ebeneezer love foundation the work on this below*/
+          /* if you want the background to be Ebenezer love foundation the work on this below*/
 
 
           /* home style end */
@@ -444,7 +444,9 @@
 
           /* join us section start */
 
-
+body {
+           
+        }
 
         /* Style the form container */
         .form-container {
@@ -893,7 +895,7 @@
             
           }
 
-          /* Media query for mobile devices  for the gallery section. */
+          /* Media query for mobile devices  for the gallery section*/
 @media screen and (max-width: 425px) {
     .boxContainer{
         width: 90%; /* Adjust width to occupy 90% of the viewport width */
@@ -924,8 +926,8 @@
         max-width: 100vw; /* Set a maximum width to maintain readability */
         margin: 0 auto; /* Center align the form container */
         border-radius: 20px;
-    }
 
+    }
 }
 
           /* responsiveness code ends here */
