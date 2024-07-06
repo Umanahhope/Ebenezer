@@ -894,7 +894,18 @@ body {
         width: 90%; /* Adjusted width for smaller screens */
         max-width: 300px; /* Set a maximum width to maintain readability */
         margin: 0 auto; /* Center align the form container */
+        border-radius: 20px;
     }
 }
 
           /* responsiveness code ends here */
+
+
+          /* next media query */
+          /* @media screen and (max-width: 504px) { .container { */
+
+          }
+            
+          }
+
+
