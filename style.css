@@ -16,7 +16,6 @@
           button,
           body{
           font-family: 'Mukta Mahee', sans-serif;
-          max-width: 100%;
           }
           p{
             font-size: 14px;
@@ -457,21 +456,18 @@ body {
             text-align: center;
             justify-content: center;
             align-items: center;
-            /* border-radius: 20px; */
-            
 
         }
 
 
         .form-container .sectionTitle{
-       width: 250px;
+       width: 300px;
        border-bottom: 3px solid white;
-       
         }
            
 
           
-        /* Style form elements for */
+        /* Style form elements */
         form {
             margin: 0; /* Remove default margin to fit container */
         }
@@ -530,10 +526,6 @@ body {
         /* display: flex; */
         margin-bottom: 10px;
         flex-direction: column;
-        padding: 20px;
-       }
-       form{
-        margin: 0;
        }
        #donate .sectionTitle{
         width: 300px;
@@ -570,7 +562,7 @@ body {
         }
 
         form {
-            max-width: 300px;
+            max-width: 400px;
             margin: 0 auto;
         }
 
@@ -896,77 +888,13 @@ body {
             
           }
 
-          /* Media query for mobile devices  for the gallery section*/
-@media screen and (max-width: 425px) {
-    .boxContainer{
-        width: 90%; /* Adjust width to occupy 90% of the viewport width */
-        max-width: 400px; /* Set a maximum width for the gallery container */
-        margin: 0 auto; /* Center the gallery container horizontally */
-        padding: 10px; /* Optional padding for spacing */
-    }
-}
-
-
-          /* Existing styles */
-
-/* Media query for mobile devices  for the gallery section*/
-@media screen and (max-width: 425px) {
-    .galleryContainer{
-        width: 100%; /* Adjust width to occupy 90% of the viewport width */
-        max-width: 400px; /* Set a maximum width for the gallery container */
-        margin: 0 auto; /* Center the gallery container horizontally */
-        padding: 10px; /* Optional padding for spacing */
-    }
-}
-
-
           /* Adjusted CSS for mobile view */
 @media screen and (max-width: 425px) {
     .form-container {
         width: 90%; /* Adjusted width for smaller screens */
-        max-width: 100%; /* Set a maximum width to maintain readability */
+        max-width: 300px; /* Set a maximum width to maintain readability */
         margin: 0 auto; /* Center align the form container */
-        border-radius: 20px;
-
     }
 }
 
           /* responsiveness code ends here */
-
-          /* Media query for devices with max-width of 504px */
-@media screen and (max-width: 504px) {
-    .container nav {
-        flex-direction: column;
-        align-items: flex;
-    }
-
-    nav  ul {
-        flex-direction: column;
-        width: 100%;
-    }
-
-     nav ul li  {
-        width: 100%;
-        margin-left: -200px;
-        top: 30px;
-        transition: max-height 0.3s ease-out; 
-    }
-
-   nav ul li a {
-        padding: 20px;
-        width: 100%;
-        display: block;
-        text-align: left;
-        height: 70px;
-    }
-
-       nav .donate {
-        width: 100%;
-        margin-top: 120px;
-        margin-left: -5px;
-         display: inline-block;
-         white-space: nowrap;
-        
-    } 
-    
-}
