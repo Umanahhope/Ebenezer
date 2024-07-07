@@ -934,18 +934,15 @@ body {
           /* responsiveness code ends here */
 
           /* Media query for devices with max-width of 504px */
-@media screen and (max-width: 504px) {
+
+
+/* @media screen and (max-width: 504px) {
     .container nav {
         flex-direction: column;
         align-items: flex;
         
     }
-    nav {
-      max-width: 100%;
-      margin-left: -20px;
-      
-
-    }
+    
 
     nav  ul {
         flex-direction: column;
@@ -976,4 +973,4 @@ body {
         
     } 
     
-}
+} */
